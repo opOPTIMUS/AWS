@@ -1,0 +1,19 @@
+
+
+
+IAM POLICY TYPES
+(1) IDENTITY BASED (2) RESOURCE BASED
+           |
+INLINE                                 MANAGED-----------------------------------------
+Applied on                       Applied on multiple user                          |      
+single user/group                                                                  |
+                                                                                   |
+IF user delete the               IF user delete policy remains      (AWS MANAGED)       (CUSTOMER MANAGED)
+policy will also deleted
+
+
+
+
+
+POWER AND ADMIN 
+
