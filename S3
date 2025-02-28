@@ -1,0 +1,18 @@
+DIFFRENTIATE
+EBS VS 
+S3
+- Static website host, data archive, backup, media
+- Highly scalable 
+- public access on/off
+- Object lock
+- Bucket Policy
+- Kms Key Encryption
+
+VS EFS
+
+STORAGE CLASS IN S3
+- S3 Standard (frequently accessed data)
+- S3 Standard IA (infrequent Access)
+- S3 one Zone
+- Intelligent tiering (std -IA- 
+- S3 glacier instant retrival 
