@@ -16,3 +16,18 @@ STORAGE CLASS IN S3
 - S3 one Zone
 - Intelligent tiering (std -IA- 
 - S3 glacier instant retrival 
+- S3 glacier flexible retrical 
+- S3 glacier deep archieve
+
+
+
+-------------------------------------------------------------------------------------------------------
+
+3/3/25
+
+LIFECYCLE RULE
+-Generally it is like a movie in website which changes its state from Latest, most viewed then deep archive  this is called changing standard class based 
+ upon periodically
+REPLICATION RULE 
+- To use data of A bucket in B bucket
+
