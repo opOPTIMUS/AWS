@@ -9,6 +9,7 @@ sudo ./aws/install
 aws s3 ls  (To list S3 buckets)
 aws s3 mb s3://aws-cli-demo-bucket (To create Bucket)
 echo "Hello Cloud" > index.html 
+
 ls
 aws S3 cp index.html s3://aws-cli-demo-bucket
 aws S3 rm s3://aws-cli-demo-bucket/index.html
