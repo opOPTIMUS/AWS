@@ -4,7 +4,9 @@ echo "Hello Cloud" > index.html
 ls
 aws S3 cp index.html s3://aws-cli-demo-bucket
 aws S3 rm index.html s3://aws-cli-demo-bucket
+aws S3 rb s3://aws-cli-demo-bucket
 
-car .aws/credentials
+cat .aws/credentials (show Accesskey)cred(secret key)
 
 copy secret key 
+aws iam create-user --user-name optimus (To create user in S3 aws)
