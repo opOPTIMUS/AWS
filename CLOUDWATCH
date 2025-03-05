@@ -1,0 +1,14 @@
+#Amazon CloudWatch is a service that monitors Amazon Web Services (AWS) resources and applications. It can help you monitor performance, troubleshoot issues, and optimize resource use.
+
+{ What can CloudWatch do? } 
+
+Monitor applications, infrastructure, networks, and services
+Collect and track metrics
+Monitor log files
+Set alarms
+Respond to performance changes
+Optimize resource use
+Gain insights into operational health
+Troubleshoot AWS infrastructure
+Resolve technical issues
+Streamline operations
