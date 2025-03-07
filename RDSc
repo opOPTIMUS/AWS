@@ -46,6 +46,53 @@ Simplifies Database Management: RDS removes the complexity of managing hardware 
 Scalable & Flexible: Easily scale up or down based on demand, and handle traffic spikes seamlessly.
 Reliability: Built-in high availability and automatic backups reduce the risk of downtime and data loss.
 
+
+TOMCAT PORT NO IS 8080
+MYSQL : 3306
+TOMCAT : 8080
+
+install 
 mysql -h database-2.cn4w8u0gmbjl.ap-southeast-1.rds.amazonaws.com -u admin -pPasswd123$
+
+search tomcat
+download tar file
+then use wget of that tarlink
+extrace=t
+tar -xvzf apache-tomcat-cersiontar.gz -C /opt
+ls
+aws containerd tomcat
+cd tomcat/
+cd bin 
+ls
+catalina.sh
+to run the tomcat script it is contained in catalina 
+so we have to give permission to ther file by using
+chmod +x catalina.sh
+./catalina.sh
+this command cannot be run coz we dont have jawa installed in our server , we have to install jawa
+yum jawa install1.8* -y
+run catalina.sh
+./catalina.sh start
+
+
+
+FOR APPLICATION
+
+curl command copy of student war
+ ls
+go to lib 
+cd lib
+2nd curl command run curl -0 http-----mysql-connector .jar
+cd ..
+currently inside bin
+
+then url copy ip and /student/
+and web is hosted
+DONE]
+'
+
+
+
+
 
 
