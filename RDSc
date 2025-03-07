@@ -89,7 +89,11 @@ currently inside bin
 then url copy ip and /student/
 and web is hosted
 DONE]
-'
+HOLD UP NOT DONE czoz hosting and database is not connected
+ then got to modify apache-tomcat/conf/context.xml fine
+
+edit username and pass and studentapp in last line last woed />
+
 
 
 
