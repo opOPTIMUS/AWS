@@ -46,4 +46,6 @@ Simplifies Database Management: RDS removes the complexity of managing hardware 
 Scalable & Flexible: Easily scale up or down based on demand, and handle traffic spikes seamlessly.
 Reliability: Built-in high availability and automatic backups reduce the risk of downtime and data loss.
 
+mysql -h database-2.cn4w8u0gmbjl.ap-southeast-1.rds.amazonaws.com -u admin -pPasswd123$
+
 
