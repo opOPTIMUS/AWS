@@ -1,0 +1,56 @@
+create VPC
+3 subnets
+A) public for nginx-IGW
+B) private for tomcat------|
+                           NATGATWWAY
+C) private for database----| 
+create subnet
+cidr 192.168.0.0/16
+192.168.0.0/21
+
+
+NGINXSG 22 ,80 HTTP AND SSH
+TOMCATSG 80 , 8080 
+DATABASESG 22 , 3306
+Create IGW 
+attach to VPC
+Create NATGW connnect to publc subnet
+Create1 RTPUBLIC 
+association as per GATEWAYS
+Create2 RTPUBLIC
+
+Create instance for all subnets
+PUBLIC VM
+ SSH & TOMCAT(8080)
+PRIVATE VM DATABASE
+-SG DBSG MYSQL/AURORA 
+
+create database and connecct to database instance which PUBLICDATABASE
+SELECT VPC SG 
+which is of DBSG
+ADD keypair to PUBLICNGINX server by using SCP cmd (scp -i devops-key.pem devops-key.pem ec2-user@ipaddress:/home/ec2-user/\
+sudo chmod 400 devops.key
+ssh -i devops-key.pw ec2-user@ipaddrr
+steps of mariadb 
+create DB table 
+srudent app
+
+
+private tomcat server
+install jawa
+install tomcat
+unzip tomcat install 
+cd /opt
+
+ls
+mc apache to tomcat folder
+ls whaere aws and tomcat is present
+cd lin
+install student api connector
+
+cd ..
+ls
+cd conf
+context.xml
+edit connection string
+(edit username and passwd)
