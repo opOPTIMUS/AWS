@@ -54,3 +54,7 @@ cd conf
 context.xml
 edit connection string
 (edit username and passwd)
+=================================================================================================================
+TERMINATE ALL INSTANCE
+DELETE RDS DATABASE demelte me
+natgw delete
