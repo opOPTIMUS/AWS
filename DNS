@@ -1,4 +1,4 @@
-DOMAIN NAME SYSTEM\
+######### DOMAIN NAME SYSTEM ##########
 
 DNS, or the Domain Name System, acts as the internet's "phonebook," translating human-readable domain names (like www.example.com) into the IP addresses computers use to communicate
 Here's a more detailed explanation:
@@ -34,18 +34,18 @@ More secure protocols for DNS lookups that encrypt the communication between the
 ROUTE53
 ==================================================================================================================================================================================================================
 
-HOSTING A WEBSITE WITH DOMAIN NAME
+### HOSTING A WEBSITE WITH DOMAIN NAME
 
-yum install httpd -Y
+-yum install httpd -Y
 
-systemctl start httpd
-systemctl enable httpd
-check the public ip in browser
-get a free css template or the website you want to host
-unzip the file (unzip XYZ.zip)
-mv to var/www/http
+-systemctl start httpd
+-systemctl enable httpd
+-check the public ip in browser
+-get a free css template or the website you want to host
+-unzip the file (unzip XYZ.zip)
+-mv to var/www/http
 
-HOSTED ZONES in ROUTE53
+### HOSTED ZONES in ROUTE53
 -CREATE HOSTED ZONE
 -ENTER DOMAIN NAME which is purchased
 -public zone create
@@ -53,10 +53,20 @@ HOSTED ZONES in ROUTE53
 -change name servers
 -paste all 4 lines (ns-1774.awsdns-35.net/org/com)
 -SAVE
-MAPPING OF INSTANCE AND DOMAIN IP
+### MAPPING OF INSTANCE AND DOMAIN IP
 -CREATE RECORD
 -RECORD TYPE (A - Routes traffic to an IPv4 address and some AWS resources)
 
-CNAME RECORD is used to map old website to new website name 
+### CNAME RECORD is used to map old website to new website name 
 -VALUE (copy instance ID in the value part)
--
+-OKAY
+
+### BY USING LOADBALANCER
+
+ON alias
+-application and lassic load balancer
+-choose region
+-choose loadbalancer
+
+
+
