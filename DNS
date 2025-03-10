@@ -1,0 +1,62 @@
+DOMAIN NAME SYSTEM\
+
+DNS, or the Domain Name System, acts as the internet's "phonebook," translating human-readable domain names (like www.example.com) into the IP addresses computers use to communicate
+Here's a more detailed explanation:
+
+What it does:
+DNS is a hierarchical and distributed system that maps domain names to IP addresses, allowing users to access websites using familiar names instead of numerical addresses. 
+
+How it works:
+When you type a website address into your browser, your computer first checks its local DNS cache. If the IP address isn't there, it queries a DNS server, which in turn queries other DNS servers until the IP address is found. 
+
+Importance:
+DNS is essential for the internet to function, as it makes it possible for users to navigate the web using easy-to-remember domain names. 
+
+DNS Servers:
+DNS servers are computers that store and manage DNS records, which contain the mapping of domain names to IP addresses. 
+
+DNS Records:
+These are instructions that live in authoritative DNS servers and provide information about a domain, including its associated IP address and how to handle requests for that domain. 
+
+Examples:
+Recursive DNS Server: The first DNS server that a client (like your computer) contacts to resolve a domain name. 
+Root Name Server: The top-level DNS servers that hold information about all the top-level domains (like .com, .org, .net). 
+Authoritative Name Server: The DNS server that has the definitive information about a specific domain and its subdomains. 
+
+DNS Lookups:
+The process of translating a domain name to an IP address, which is performed by DNS servers. 
+Reverse DNS Lookup:
+The process of determining the domain name associated with an IP address. 
+
+DNS over TLS (DoT) and DNS over HTTPS (DoH):
+More secure protocols for DNS lookups that encrypt the communication between the client and the DNS server. 
+
+ROUTE53
+==================================================================================================================================================================================================================
+
+HOSTING A WEBSITE WITH DOMAIN NAME
+
+yum install httpd -Y
+
+systemctl start httpd
+systemctl enable httpd
+check the public ip in browser
+get a free css template or the website you want to host
+unzip the file (unzip XYZ.zip)
+mv to var/www/http
+
+HOSTED ZONES in ROUTE53
+-CREATE HOSTED ZONE
+-ENTER DOMAIN NAME which is purchased
+-public zone create
+-copy value route traffic to things which are ns-1774.awsdns-35.net/org/com to domain website such as godaddy pr hostinger (skip the last dot)
+-change name servers
+-paste all 4 lines (ns-1774.awsdns-35.net/org/com)
+-SAVE
+MAPPING OF INSTANCE AND DOMAIN IP
+-CREATE RECORD
+-RECORD TYPE (A - Routes traffic to an IPv4 address and some AWS resources)
+
+CNAME RECORD is used to map old website to new website name 
+-VALUE (copy instance ID in the value part)
+-
