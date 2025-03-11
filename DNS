@@ -68,5 +68,15 @@ ON alias
 -choose region
 -choose loadbalancer
 
+====================================================================================================================================================================
+
+### These are used to evaluate the loadbalancer routing policy
+
+Simple routing
+weighted
+Geolocation
+Latency
+Failover 
+
 
 
