@@ -58,3 +58,5 @@ edit connection string
 TERMINATE ALL INSTANCE
 DELETE RDS DATABASE demelte me
 natgw delete
+
+NA
