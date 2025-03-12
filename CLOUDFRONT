@@ -1,0 +1,50 @@
+
+- **Global distribution** with over 400 edge locations.
+- **Scalability** to handle varying traffic loads.
+- **Security** through encryption (SSL/TLS), DDoS protection, and WAF integration.
+- **Pay-as-you-go pricing** with no upfront costs.
+
+CloudFront integrates with other AWS services like **S3**, **EC2**, and **Lambda** for seamless content delivery. It’s used for static website hosting, video streaming, and API acceleration.\
+
+==========================================================
+-CREATE S3 bucket(name it)
+-ACL enabled for static access
+-disable all access 
+-CREATE BUCKET
+
+-Upload Object (CSS FILE TEMPLATE FILES)
+-UPLOAD
+
+-select Objects and make ACL enable in actions
+-properties edit enable static CDN : Content Delivery Network
+
+Amazon CloudFront is a **content delivery network (CDN)** service from AWS that accelerates content delivery by caching it at edge locations worldwide. It reduces latency, improves load times, 
+and provides high availability for websites, APIs, and media streaming. 
+
+Key features include:
+-index doc(index.html)
+-Copy endpoint and past in browser
+
+###CLOUDFRONT PART
+-Create distribution 
+-choose origin domain where bucket is to be selected
+-DEPLOY
+wait for deploying
+
+ORIGIN ACCESS 
+-PUBLIC 0
+-origin access control serrings (recommended) -only cloud front has the control of your bucket 1
+-legacy access identities 0
+
+create new OAC
+disable waf
+
+copy cdn DOMAIN NAME
+
+====================================================================================================================================================================================================
+CLOUDFRONT DELETION PARTS
+
+-DISABLE DISTRIBUTION
+-DELETE ORIGIN ACCESS
+
+
