@@ -53,6 +53,7 @@ ROUTE53
 -change name servers
 -paste all 4 lines (ns-1774.awsdns-35.net/org/com)
 -SAVE
+
 ### MAPPING OF INSTANCE AND DOMAIN IP
 -CREATE RECORD
 -RECORD TYPE (A - Routes traffic to an IPv4 address and some AWS resources)
