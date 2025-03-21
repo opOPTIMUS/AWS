@@ -1,4 +1,4 @@
-                                                                #DAY 5
+                                                              # GITHUB DAY 5
 
 # VS CODE                                                           
 
